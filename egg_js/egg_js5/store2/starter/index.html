@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda Virtual</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/cart.css">
+    <link rel="stylesheet" href="./styles/details.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  </head>
+  <body>
+
+    
+
+        <header id="encabezado">
+          <div class="search">
+            <div class="logo">
+              <a href="index.html"><img src="./assets/tiendamia-logo.svg" width="218" alt="Logo store" /></a>
+            </div>
+            <div class="form">
+              <form>
+                <input type="text" id="search" placeholder="Search" />
+              </form>
+            </div>
+            <div class="social">
+              <ul>
+                <li><a href="https://www.facebook.com/?locale=es_LA"><img src="./assets/facebook.png" alt="img facebook"></li>
+                <li><a href="https://www.instagram.com/"><img src="./assets/instagram.png" alt="img instagram"></a></li>
+                <li><a href="favorite.html"><img width="25px" height="25px" src="./assets/product_image.e8620da1b7848b070d4453675412c2c9.png" alt="img favorite"></a></li>
+                <li><a href="#" id="userIcon" onclick="toggleSession()">👤</a></li>
+                <li><a href="cart.html" id="cartIcon">🛒</a></li>
+                <li><a href="#" id="profileIcon" onclick="endSession()">👤</a></li>
+              </ul>
+            </div>
+          </div>
+           <div class="nav" id=”nav”>
+              <div class="navp" id="nav1"></div>
+            </div>
+        </header>
+       
+        <section id="hero">
+          <div class="container2">
+            <div class="title-container">
+              <span>Tecnología</span>
+              <span>Renovada</span>
+            </div>
+          </div>
+        </section>
+ 
+      <main>
+        <div class="container" >
+            <div class="product-container" id="products">
+
+                <article class="product-card">
+                  <a class="product-card" href="./details.html">
+                   <img class="product-img" src="assets/mock1.jpg" alt="Macbook Pro" />
+                   <div class="product-info">
+                     <span class="product-title">Macbook Pro 15'4</span>
+                     <span class="product-description">Space Gray</span>
+                     <div class="product-price-block">
+                       <span class="price">$749.999</span>
+                       <span class="discount">50% Off</span>
+                     </div>
+                     <div class="product-tax-policy">Incluye impuesto País y percepción AFIP</div>
+                   </div>
+                  </a>
+                </article>
+
+              </div>
+             
+
+        </div>
+        
+      </main>
+      
+
+      <footer>
+
+        <div id="footer" class="footer-container"></div>
+    
+        <div class="footer-copyright">Curso de HTML + CSS 2023</div>
+      </footer>
+
+    <script  src="./scripts/filterProducts.js"></script>
+    <script  src="./scripts/layout.js"></script>
+    <script  src="./scripts/products.js"></script>
+    <script  src="./scripts/Online.js"></script>
+
+
+    <script type="module" src="./scripts/Modulos/index.js"></script>
+    <script type="module" src="./scripts/Modulos/navLoader.js"></script>
+    <script type="module" src="./scripts/Modulos/navRenderer.js"></script>
+    <script type="module" src="./scripts/Modulos/productLoader.js"></script>
+    <script type="module" src="./scripts/Modulos/productRenderer.js"></script>
+    <script type="module" src="./scripts/Modulos/searchHandler.js"></script>
+
+  </body>
+</html>
