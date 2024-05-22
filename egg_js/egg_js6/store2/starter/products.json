@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "title": "Pan",
+        "price": 1,
+        "stock": 50,
+        "images": ["/img_store_js/pan1.jpg", "/img_store_js/pan2.jpg", "/img_store_js/pan3.jpg"],
+        "onsale": true,
+        "discount": 10,
+        "colors": ["blanco", "negro", "rojo"],
+        "description": "Pan fresco y crujiente"
+    },
+    {
+        "id": 2,
+        "title": "Agua",
+        "price": 2,
+        "stock": 100,
+        "images": ["/img_store_js/agua1.jpg", "/img_store_js/agua2.jpg", "/img_store_js/agua3.jpg"],
+        "onsale": false,
+        "discount": 10,
+        "colors": ["azul", "verde"],
+        "description": "Agua purificada sin gas"
+    },
+    {
+        "id": 3,
+        "title": "Vino",
+        "price": 30,
+        "stock": 20,
+        "images": ["/img_store_js/vino1.jpg", "/img_store_js/vino2.jpg"],
+        "onsale": true,
+        "discount": 10,
+        "colors": ["rojo"],
+        "description": "Vino tinto reserva"
+    },
+    {
+        "id": 4,
+        "title": "Carro",
+        "price": 20000,
+        "stock": 5,
+        "images": ["/img_store_js/carro1.jpg", "/img_store_js/carro2.jpg"],
+        "onsale": false,
+        "discount": 10,
+        "colors": ["negro", "gris"],
+        "description": "Carro deportivo de lujo"
+    },
+    {
+        "id": 5,
+        "title": "Papel",
+        "price": 10,
+        "stock": 200,
+        "images": ["/img_store_js/papel1.jpg", "/img_store_js/papel2.jpg"],
+        "onsale": true,
+        "discount": 20,
+        "colors": ["blanco"],
+        "description": "Papel de alta calidad"
+    },
+    {
+        "id": 6,
+        "title": "Silla",
+        "price": 50,
+        "stock": 30,
+        "images": ["/img_store_js/silla1.jpg", "/img_store_js/silla2.jpg"],
+        "onsale": false,
+        "discount": 12,
+        "colors": ["madera", "negro"],
+        "description": "Silla ergonómica moderna"
+    }
+]

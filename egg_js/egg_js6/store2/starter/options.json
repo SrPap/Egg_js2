@@ -1,0 +1,16 @@
+{
+    "navigation": [
+        { "title": "Ofertas de la semana", "linkTo": "./outlet.html" },
+        { "title": "Como comprar", "linkTo": "./how.html" },
+        { "title": "Costos y tarifas", "linkTo": "./taxs.html" },
+        { "title": "Mis pedidos", "linkTo": "./cart.html" },
+        { "title": "Garantia", "linkTo": "./warranty.html" }
+    ],
+    "footer": [
+        { "title": "Ofertas", "opts": ["Laptops", "Audio", "Auriculares"], "linkTo": "index.html" },
+        { "title": "Como comprar", "opts": ["Formas de pago", "Envios", "Devoluciones"], "linkTo": "index.html" },
+        { "title": "Costos y tarifas", "opts": ["Impuestos", "Facturacion"], "linkTo": "index.html" },
+        { "title": "Mis pedidos", "opts": ["Pedir nuevamente", "Listas de deseos"], "linkTo": "cart.html" },
+        { "title": "Garantia", "opts": [], "linkTo": "index.html" }
+    ]
+}
